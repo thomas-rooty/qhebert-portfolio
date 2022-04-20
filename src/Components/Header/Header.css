@@ -1,15 +1,49 @@
+@font-face {
+    font-family: 'AvenirProBlack';
+    src: url('../../Fonts/AvenirLTProBlack.otf');
+}
+
+@font-face {
+    font-family: 'AvenirProBook';
+    src: url('../../Fonts/AvenirLTProBook.otf');
+}
+
+@font-face {
+    font-family: 'AvenirProLight';
+    src: url('../../Fonts/AvenirLTProLight.otf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'AvenirProLightOblique';
+    src: url('../../Fonts/AvenirLTProLightOblique.otf');
+    font-weight: 600;
+}
+
 .header {
+    background: aqua; /* only for testing */
     display: flex;
     width: 100%;
     height: fit-content;
-    background-color: #f5f5f5;
+    margin-top: 10vh;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: Avenir, Helvetica, sans-serif;
-    font-weight: normal;
-    font-size: 21px;
+.upper-container {
+    margin-bottom: 15px;
+}
+
+.upper-container > h1 {
+    font-family: AvenirProLight, sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+.lower-container > h2 {
+    font-family: AvenirProLightOblique, sans-serif;
+    font-size: 14px;
+    color: #9b9b9b;
+    margin: 0;
 }
