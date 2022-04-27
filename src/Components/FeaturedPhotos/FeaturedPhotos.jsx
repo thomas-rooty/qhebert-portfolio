@@ -28,69 +28,12 @@ const FeaturedPhotos = () => {
         <div className="featuredPhotos">
             <h1>Shooting et Edit <span className="red">Photo</span></h1>
             <div className="photos-container">
-                <div className="photo">
-                    <img src={photo1} alt="photo1" />
-                </div>
-                <div className="photo">
-                    <img src={photo2} alt="photo2" />
-                </div>
-                <div className="photo">
-                    <img src={photo3} alt="photo3" />
-                </div>
-                <div className="photo">
-                    <img src={photo4} alt="photo4" />
-                </div>
-                <div className="photo">
-                    <img src={photo5} alt="photo5" />
-                </div>
-                <div className="photo">
-                    <img src={photo6} alt="photo6" />
-                </div>
-                <div className="photo">
-                    <img src={photo7} alt="photo7" />
-                </div>
-                <div className="photo">
-                    <img src={photo8} alt="photo8" />
-                </div>
-                <div className="photo">
-                    <img src={photo9} alt="photo9" />
-                </div>
-                <div className="photo">
-                    <img src={photo10} alt="photo10" />
-                </div>
-                <div className="photo">
-                    <img src={photo11} alt="photo11" />
-                </div>
-                <div className="photo">
-                    <img src={photo12} alt="photo12" />
-                </div>
-                <div className="photo">
-                    <img src={photo13} alt="photo13" />
-                </div>
-                <div className="photo">
-                    <img src={photo14} alt="photo14" />
-                </div>
-                <div className="photo">
-                    <img src={photo15} alt="photo15" />
-                </div>
-                <div className="photo">
-                    <img src={photo16} alt="photo16" />
-                </div>
-                <div className="photo">
-                    <img src={photo17} alt="photo17" />
-                </div>
-                <div className="photo">
-                    <img src={photo18} alt="photo18" />
-                </div>
-                <div className="photo">
-                    <img src={photo19} alt="photo19" />
-                </div>
-                <div className="photo">
-                    <img src={photo20} alt="photo20" />
-                </div>
-                <div className="photo">
-                    <img src={photo21} alt="photo21" />
-                </div>
+                    <img className="photo" src={photo1} alt="photo1"/>
+                    <img className="photo" src={photo2} alt="photo2"/>
+                    <img className="photo" src={photo3} alt="photo3"/>
+            </div>
+            <div className="lower-container">
+                <h2>Vidéaste - Photographe - Réalisateur</h2>
             </div>
         </div>
     )
