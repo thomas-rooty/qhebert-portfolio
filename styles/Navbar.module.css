@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Kulim Park';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Kulim Park'), url(/fonts/KulimPark-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Lekton';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Lekton'), url(/fonts/Lekton-Regular.ttf) format('truetype');
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.navbar__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 95vw;
+    margin: 0 auto;
+}
+
+.navbar__logo {
+    font-family: 'Lekton', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    color: #414141;
+}
+
+.navbar__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar__item {
+    margin: 0 0.5rem;
+    padding: 2rem;
+}
+
+.navbar__links {
+    font-family: Kulim Park, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+    text-align: center;
+    color: #414141;
+
+}
