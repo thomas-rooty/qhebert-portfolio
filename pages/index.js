@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Footer from "../components/footer/footer";
 import Navbar from "../components/navbar/navbar";
+import Hero from "../components/hero/hero";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
 
       <main className={styles.main}>
         <Navbar />
+        <Hero />
       </main>
 
       <Footer />
