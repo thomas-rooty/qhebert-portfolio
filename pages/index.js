@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 import Footer from "../components/footer/footer";
 import Navbar from "../components/navbar/navbar";
 import Hero from "../components/hero/hero";
+import About from "../components/about/about";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <main className={styles.main}>
         <Navbar />
         <Hero />
+        <About />
       </main>
 
       <Footer />
