@@ -14,13 +14,12 @@
 
 .centerBottom {
     position: absolute;
-    bottom: 50px;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 30px;
+    transform: translateX(-50%) rotate(-90deg);
 }
 
 .centerBottom > span {
     font-size: 18px;
-    word-spacing: 3rem;
+    word-spacing: 1rem;
     font-family: Kulim Park, sans-serif;
 }
