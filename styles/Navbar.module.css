@@ -51,8 +51,8 @@
 .navbar__item {
     margin: 0 0.5rem;
     padding: 1rem 2rem;
-    cursor: pointer;
     transition: all 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 .navbar__item:hover {
