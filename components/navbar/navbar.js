@@ -19,7 +19,7 @@ const Navbar = () => {
 						</Link>
 					</li>
 					<li className={styles.navbar__item}>
-						<Link href="/">
+						<Link href="/photos">
 							<a className={styles.navbar__links}>PHOTOS</a>
 						</Link>
 					</li>

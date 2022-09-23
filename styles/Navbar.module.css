@@ -21,6 +21,12 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.navbar__logo__container:hover {
+    transform: scale(1.05);
 }
 
 .navbar__logo {
@@ -44,7 +50,14 @@
 
 .navbar__item {
     margin: 0 0.5rem;
-    padding: 2rem;
+    padding: 1rem 2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar__item:hover {
+    background-color: #f2f2f2;
+    transform: scale(1.1);
+    border-radius: 10px;
 }
 
 .navbar__links {
