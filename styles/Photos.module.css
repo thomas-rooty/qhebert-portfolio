@@ -1,0 +1,59 @@
+.main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portraitContainer {
+    width: 1200px;
+    height: fit-content; /* height given for illustration */
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.portrait {
+    margin: 4px;
+    flex: 0 1 calc(20% - 8px); /* <-- adjusting for margin */
+}
+
+.portrait > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.portrait > img:hover {
+    transform: scale(1.05);
+}
+
+.landscapeContainer {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+}
+
+.landscape {
+    margin: 4px;
+    flex: 0 1 calc(50% - 8px); /* <-- adjusting for margin */
+}
+
+.landscape > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.landscape > img:hover {
+    transform: scale(1.03);
+}
