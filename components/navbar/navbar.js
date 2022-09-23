@@ -13,26 +13,26 @@ const Navbar = () => {
 					</div>
 				</Link>
 				<ul className={styles.navbar__menu}>
-					<li className={styles.navbar__item}>
-						<Link href="/">
+					<Link href="/">
+						<li className={styles.navbar__item}>
 							<a className={styles.navbar__links}>A PROPOS</a>
-						</Link>
-					</li>
+						</li>
+					</Link>
+					<Link href="/photos">
 					<li className={styles.navbar__item}>
-						<Link href="/photos">
 							<a className={styles.navbar__links}>PHOTOS</a>
-						</Link>
 					</li>
+					</Link>
+					<Link href="/">
 					<li className={styles.navbar__item}>
-						<Link href="/">
 							<a className={styles.navbar__links}>VIDEOS</a>
-						</Link>
 					</li>
+					</Link>
+					<Link href="/">
 					<li className={styles.navbar__item}>
-						<Link href="/">
 							<a className={styles.navbar__links}>CONTACT</a>
-						</Link>
 					</li>
+					</Link>
 				</ul>
 			</div>
 		</nav>
