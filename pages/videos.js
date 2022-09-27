@@ -1,4 +1,4 @@
-import styles from "../styles/Photos.module.css";
+import styles from "../styles/Videos.module.css";
 import Navbar from "../components/navbar/navbar";
 import VideosLib from "../components/videosLib/videosLib";
 import Footer from "../components/footer/footer";
