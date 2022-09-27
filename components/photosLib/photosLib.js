@@ -18,7 +18,7 @@ import portrait15 from "../../public/assets/pictures_gallery/portrait/15.jpg";
 import landscape1 from "../../public/assets/pictures_gallery/landscape/1.jpg";
 import landscape2 from "../../public/assets/pictures_gallery/landscape/2.jpg";
 
-const Gallery = () => {
+const PhotosLib = () => {
 	return (
 		<div className={styles.gallery}>
 			<h1>PHOTOS</h1>
@@ -82,4 +82,4 @@ const Gallery = () => {
 	);
 }
 
-export default Gallery;
+export default PhotosLib;

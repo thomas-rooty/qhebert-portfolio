@@ -1,10 +1,10 @@
 import styles from "../styles/Photos.module.css";
 import Navbar from "../components/navbar/navbar";
-import PhotosLib from "../components/photosLib/photosLib";
+import VideosLib from "../components/videosLib/videosLib";
 import Footer from "../components/footer/footer";
 import Head from "next/head";
 
-const Photos = () => {
+const Videos = () => {
 	return (
 		<div>
 			<Head>
@@ -15,11 +15,11 @@ const Photos = () => {
 
 			<main className={styles.main}>
 				<Navbar/>
-				<PhotosLib/>
+				<VideosLib/>
 				<Footer/>
 			</main>
 		</div>
 	);
 }
 
-export default Photos;
+export default Videos;
