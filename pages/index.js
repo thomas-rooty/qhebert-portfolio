@@ -1,9 +1,9 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 import Footer from "../components/footer/footer";
 import Navbar from "../components/navbar/navbar";
 import Hero from "../components/hero/hero";
 import About from "../components/about/about";
+import styles from '../styles/Home.module.css'
 
 const Home = () => {
   return (
