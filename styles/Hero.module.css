@@ -23,4 +23,19 @@
     font-size: 18px;
     word-spacing: 1rem;
     font-family: Kulim Park, sans-serif;
+    color: white;
+}
+
+@media screen and (max-width: 1280px) {
+    .hero > video {
+        height: 40vh;
+    }
+
+    .centerBottom {
+        left: 20px;
+    }
+
+    .centerBottom > span {
+        font-size: 14px;
+    }
 }

@@ -25,3 +25,17 @@
     margin: 4px;
     flex: 0 1 calc(20% - 8px); /* <-- adjusting for margin */
 }
+
+@media screen and (max-width: 1280px) {
+    .videosContainer {
+        width: 100%;
+        flex-direction: column;
+        align-items: normal;
+        margin-top: 20px;
+    }
+
+    .video > iframe {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

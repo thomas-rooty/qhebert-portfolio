@@ -16,3 +16,15 @@
     transform: scale(1.1);
     filter: invert(0);
 }
+
+@media screen and (max-width: 1280px) {
+    .footer {
+        justify-content: right;
+        margin: 0 2rem;
+    }
+    .footer__icon > img {
+        width: 36px;
+        height: 36px;
+        margin-left: 0.5rem;
+    }
+}

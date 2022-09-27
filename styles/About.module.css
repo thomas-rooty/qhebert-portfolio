@@ -27,3 +27,27 @@
 .right > p {
     color: black;
 }
+
+@media screen and (max-width: 1280px) {
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    .left {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .right {
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right > p {
+        text-align: justify;
+    }
+}

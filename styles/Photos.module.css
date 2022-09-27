@@ -68,3 +68,14 @@
     pointer-events: none;
     z-index: 100;
 }
+
+@media screen and (max-width: 1280px) {
+    .portraitContainer {
+        width: 95%;
+        margin-top: 20px;
+    }
+
+    .landscapeContainer {
+        width: 95%;
+    }
+}
