@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import styles from '../../styles/Navbar.module.css';
 import Image from "next/future/image";
 import Logo from "../../public/assets/images/logo.png";
+import styles from '../../styles/Navbar.module.css';
 
 const Navbar = () => {
 	return (
