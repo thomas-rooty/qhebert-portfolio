@@ -24,7 +24,7 @@ const Navbar = () => {
 							<a className={styles.navbar__links}>PHOTOS</a>
 					</li>
 					</Link>
-					<Link href="/">
+					<Link href="/videos">
 					<li className={styles.navbar__item}>
 							<a className={styles.navbar__links}>VIDEOS</a>
 					</li>
