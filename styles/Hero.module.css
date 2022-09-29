@@ -29,6 +29,7 @@
 @media screen and (max-width: 1280px) {
     .hero > video {
         height: 40vh;
+        object-position: 50% 40%;
     }
 
     .centerBottom {
