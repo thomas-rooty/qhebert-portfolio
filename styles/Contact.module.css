@@ -1,23 +1,71 @@
 .main {
-    min-height: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.inputGroup {
-    height: 50%;
-    width: 200%;
+.container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    max-width: 95vw;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+.inputGroup {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 10px 0;
 }
 
 .inputLabel {
     text-align: left;
+    width: 100%;
+    margin-bottom: 2px;
+    color: #414141;
 }
 
 .inputField {
     height: 30px;
+    width: 100%;
+    border: 1px solid #414141;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#inputMessage {
+    height: 450px;
+}
+
+.inputSubmit {
+    font-family: Kulim Park, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: .05em;
+    margin: 0 0.5rem;
+    padding: 1rem 2rem;
+    width: fit-content;
+    border: none;
+    border-bottom: 4px solid #020322;
+    border-radius: 10px;
+    color: #414141;
+    transition: all 0.1s ease-in-out;
+    background-color: #e5e5e5;
+    cursor: pointer;
+}
+
+.inputSubmit:hover {
+    background-color: #020322;
+    color: white;
+    border-bottom: 0;
+    margin-top: 4px;
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 1280px) {
