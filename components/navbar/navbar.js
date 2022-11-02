@@ -29,7 +29,7 @@ const Navbar = () => {
 							<a className={styles.navbar__links}>VIDEOS</a>
 					</li>
 					</Link>
-					<Link href="/">
+					<Link href="/contact">
 					<li className={styles.navbar__item}>
 							<a className={styles.navbar__links}>CONTACT</a>
 					</li>
