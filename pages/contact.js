@@ -2,6 +2,7 @@ import styles from "../styles/Contact.module.css";
 import Navbar from "../components/navbar/navbar";
 import Footer from "../components/footer/footer";
 import Head from "next/head";
+import Form from "../components/form/form";
 
 const Contact = () => {
 	return (
@@ -14,6 +15,7 @@ const Contact = () => {
 
 			<main className={styles.main}>
 				<Navbar/>
+				<Form/>
 				<Footer/>
 			</main>
 		</div>
