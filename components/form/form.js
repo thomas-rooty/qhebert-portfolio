@@ -42,7 +42,7 @@ const Form = () => {
 
       <div className={styles.container}>
         <formGroup className={styles.inputGroup}>
-          <label className={styles.inputLabel} htmlFor='name'>Name</label>
+          <label className={styles.inputLabel} htmlFor='name'>Nom</label>
           <input type='text' onChange={(e) => {
             setName(e.target.value)
           }} name='name' className={styles.inputField}/>
