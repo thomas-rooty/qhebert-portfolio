@@ -27,8 +27,8 @@ const Form = () => {
     }).then((res) => {
       console.log('Response received')
       console.log(res);
+      alert('Message envoyé ! Je vous recontacterai dès que possible')
       if (res.status === 200) {
-        console.log('Response succeeded!')
         setSubmitted(true)
         setName('')
         setEmail('')
@@ -42,7 +42,7 @@ const Form = () => {
 
       <div className={styles.container}>
         <formGroup className={styles.inputGroup}>
-          <label className={styles.inputLabel} htmlFor='name'>Nom</label>
+          <label className={styles.inputLabel} htmlFor='name'>Nom, prénom</label>
           <input type='text' onChange={(e) => {
             setName(e.target.value)
           }} name='name' className={styles.inputField}/>

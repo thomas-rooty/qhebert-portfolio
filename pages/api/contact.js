@@ -31,7 +31,7 @@ export default async (req, res) => {
   const mailData = {
     from: process.env.email,
     //to: 'quentin.makershoot@gmail.com',
-    to: 'quentin.makershoot@gmail.com',
+    to: ['quentin.makershoot@gmail.com', req.body.email],
     subject: `Message de ${req.body.name}`,
     text: req.body.message + " | Envoyé de: " + req.body.email,
     html: `<div>${req.body.message}</div><p>Envoyé de:
