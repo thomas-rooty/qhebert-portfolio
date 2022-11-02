@@ -2,13 +2,12 @@ export default function (req, res) {
   require('dotenv').config()
 
   let nodemailer = require('nodemailer')
-  console.log(process.env)
   const transporter = nodemailer.createTransport({
-    port: process.env.port,
-    host: process.env.host,
+    port: process.env.NEXT_PUBLIC_PORT,
+    host: process.env.NEXT_PUBLIC_H0ST,
     auth: {
-      user: process.env.email,
-      pass: process.env.password,
+      user: process.env.NEXT_PUBLIC_EMAIL,
+      pass: process.env.NEXT_PUBLIC_PASSWORD,
     },
     secure: true,
   })
@@ -26,5 +25,5 @@ export default function (req, res) {
     else
       console.log(info)
   })
-  res.send(process.env)
+  res.send('success')
 }
