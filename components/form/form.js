@@ -64,7 +64,7 @@ const Form = () => {
 
         <input className={styles.inputSubmit} type='submit' onClick={(e) => {
           handleSubmit(e)
-        }} value="SUBMIT"/>
+        }} value="ENVOYER"/>
       </div>
     </form>
   )
